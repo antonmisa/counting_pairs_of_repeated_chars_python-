@@ -1,0 +1,15 @@
+[package]
+name = "pyext-myrustlib"
+version = "0.1.0"
+edition = "2018"
+authors = ["Saveliev Anton <anton_misa@mail.ru>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "myrustlib"
+crate-type = ["cdylib"]
+
+[dependencies.cpython]
+version = "0.1"
+features = ["extension-module"]
