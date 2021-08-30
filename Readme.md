@@ -1,3 +1,8 @@
+This is known problem: counting double chars in a long string  
+Simple test for python program performed by pytest. 
+For test was taken string with 1.000.000 chars.
+Exploring different methods, including external component writen on Rust
+
 ============================= test session starts =============================
 platform win32 -- Python 3.8.8, pytest-6.2.3, py-1.10.0, pluggy-0.13.1
 benchmark: 3.4.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
@@ -19,3 +24,4 @@ test_python_classic           276.4368 (162.77)   708.0133 (288.20)   390.9426 (
 Legend:
   Outliers: 1 Standard Deviation from Mean; 1.5 IQR (InterQuartile Range) from 1st Quartile and 3rd Quartile.
   OPS: Operations Per Second, computed as 1 / Mean
+============================= test session ends ===============================
